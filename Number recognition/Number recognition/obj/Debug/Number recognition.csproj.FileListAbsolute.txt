@@ -1,0 +1,10 @@
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\bin\Debug\Number recognition.exe.config
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\bin\Debug\Number recognition.exe
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\bin\Debug\Number recognition.pdb
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number recognition.csprojAssemblyReference.cache
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number_recognition.Form1.resources
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number_recognition.Properties.Resources.resources
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number recognition.csproj.GenerateResource.cache
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number recognition.csproj.CoreCompileInputs.cache
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number recognition.exe
+C:\Users\choon\OneDrive\Desktop\4학년 1학기 수업파일\퍼지시스템 수업\기말퍼지프로젝트\Number recognition\Number recognition\obj\Debug\Number recognition.pdb
