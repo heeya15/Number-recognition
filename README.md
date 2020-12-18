@@ -1,6 +1,6 @@
 # Number-recognition
-FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
-저의 주제는 FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
+- FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
+- 저의 주제는 FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
 
 # 목차는 
 1. 작품소개 
