@@ -73,7 +73,7 @@
             this.fCMToolStripMenuItem.Name = "fCMToolStripMenuItem";
             this.fCMToolStripMenuItem.Size = new System.Drawing.Size(122, 26);
             this.fCMToolStripMenuItem.Text = "Open";
-            this.fCMToolStripMenuItem.Click += new System.EventHandler(this.fCMToolStripMenuItem_Click);
+            this.fCMToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItem_Click);
             // 
             // fcmToolStripMenuItem1
             // 

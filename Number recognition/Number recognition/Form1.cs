@@ -15,15 +15,15 @@ namespace Number_recognition
         Image image;
         Bitmap OriginalBitmap; //원본이미지 컬러영상 픽셀 담아두는용도
         Image_Processing ip = new Image_Processing(); //영상을 전처리하는 과정 클래스 .
-        int[,] gray_binaryArray;  // 그레이, 이진화한 값을 담고있는 배열 .
-        Bitmap Binary_Bitmap; //이진화 비트맵 
+        int[,] gray_binaryArray;  // [ 그레이, 이진화한 값 ]을 담고있는 배열.
+        Bitmap Binary_Bitmap;//[ 그레이 이진화 ] 비트맵 
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void fCMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string name = "All Files(*.*)|*.*|Bitmap File(*.bmp)|*.bmp|Gif File(*.gif)|*.gif|jpeg File(*.jpg)|*.jpg";
 
@@ -43,7 +43,7 @@ namespace Number_recognition
 
         private void binarizationToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            gray_binaryArray = ip.GrayArray(OriginalBitmap); //그레이 
+            gray_binaryArray = ip.GrayArray(OriginalBitmap); //이미지 그레이화한 배열값 저장. 
             gray_binaryArray = ip.Max_Min_Binary(gray_binaryArray); //그레이 한 픽셀에 이진화. 
             Binary_Bitmap = new Bitmap(ip.Convert(gray_binaryArray),
                                           pictureBox2.Width, pictureBox2.Height);
@@ -52,15 +52,17 @@ namespace Number_recognition
 
         private void fcmToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Bitmap bitmap = OriginalBitmap;
-            Start start = new Start(); // Run class 객체 생성 --> 4방향 소속도 구하는 기능을 구현한 클래스 .
+            // Start class 객체 생성 --> [ 4방향 소속도 ] 구하는 기능을 구현한 클래스 .
+            Start start = new Start();
 
             // gray + MaxMinBinary + ROI 영역 추출 후 그린다. 
             pictureBox3.Image = new Bitmap(ip.Convert(ip.Roiarea(gray_binaryArray)),
                                           pictureBox3.Width, pictureBox3.Height);
-          
-            //Fuzzy Max-Min Neural Network로 분류 
-            start.num_FMMNN(bitmap); // run 클래스에서 정의된 함수에 원본 컬러영상 비트맵을 인수로 전달하여 [ 소속도를 구한다. ] 
+
+            /* Fuzzy Max-Min Neural Network로 분류 
+               Start 클래스에서 정의된 함수에 원본 컬러영상 비트맵을 인수로 전달하여, 메소드에서 전처리 후 
+              [ 소속도를 구한다. ] */
+            start.num_FMMNN(OriginalBitmap);
         }
         private void button1_Click(object sender, EventArgs e)
         {
