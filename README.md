@@ -1,6 +1,5 @@
 # Number-recognition
 FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
-안녕하세요 컴퓨터 소프트웨어 공학부 15학번 발표자 김광희 라고 합니다
 저의 주제는 FCM 및 Fuzzy max-min 을 이용한 Neural -Netework 숫자인식 입니다.
 
 # 목차는 
