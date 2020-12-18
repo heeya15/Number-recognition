@@ -5,10 +5,10 @@
 # 목차는 
 1. 작품소개 
 2. 개발에 사용된 처리과정 및 알고리즘 분석
-  1)Preprocessing 
-  2) FCM
-  3) MIN-MAX- Normalization 
-3 . 실제구현
+  - 1)Preprocessing 
+  - 2) FCM
+  - 3) MIN-MAX- Normalization 
+3. 실제구현
 4. 결론 및 개선방향 순으로 진행되겠습니다 .
 5. 먼저 작품소개 
 
